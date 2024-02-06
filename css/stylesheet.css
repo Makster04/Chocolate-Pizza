@@ -38,7 +38,7 @@
 }
 #choc-pizza-text {
     display: flex;
-    border: blue solid;
+    border: rgb(0, 0, 0) solid;
     justify-content: space-between;
     margin-top: 40px;
     height: fit-content;
@@ -46,30 +46,30 @@
 }
 #choc-pizza-h1p {
     display: flex;
-    border: greenyellow solid;
+    border: rgb(0, 0, 0) solid;
     flex-direction: column;
     align-items: start;
 }
 #choc-pizza-h1p h1 {
-    border: palevioletred solid;
+    border: rgb(0, 0, 0) solid;
     margin-bottom: 0;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
 }
 #choc-pizza-h1p p {
-    border: black solid;
+    border: rgb(0, 0, 0) solid;
     margin-top: 0;
     text-transform: uppercase;
 }
 #print-main-container {
-    border: brown solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     justify-content: end;
     flex-direction: column;
 }
 #print-container {
-    border: purple solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -88,7 +88,7 @@
     text-transform: uppercase;
 }
 #print-img-text {
-    border: red solid;
+    border: rgb(0, 0, 0) solid;
 }
 #pizza-image {
     display: flex;
@@ -112,7 +112,7 @@
 #overlay-list {
     position: absolute;
     z-index: 2;
-    border: red solid;
+    border: rgb(0, 0, 0) solid;
     width: 100%;
     height: 400px;
     margin-top: 40px;
@@ -123,11 +123,11 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: greenyellow solid;
+    border: rgb(215, 223, 128) solid;
     width: 450px;
 }
 .list-items {
-    border: blue solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     justify-content: space-evenly;
     width: 450px;
@@ -144,13 +144,13 @@
     margin-bottom: 30px;
 }
 #img-button {
-    border: red solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     justify-content: left;
     margin-top: 50px;
 }
 #van-img {
-    border: blue solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     width: 140px;
     margin-right: 20px;
@@ -160,7 +160,7 @@
     width: 140px;
 }
 #van-name-text {
-    border: greenyellow solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -173,14 +173,14 @@
     font-size: 30px;
 }
 #van-name-text p {
-    border: brown solid;
+    border: rgb(0, 0, 0) solid;
     font-size: 20px;
     margin: 0;
     height: 50%;
     font-family: 'Noto Serif', serif;
 }
 #share-button {
-    border: palevioletred solid;
+    border: rgb(0, 0, 0) solid;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -190,8 +190,8 @@ button {
     height: 80px;
     width: 250px;
     margin-left: 40px;
-    background-color: rgb(183, 91, 0);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     border: none;
 }
@@ -210,4 +210,5 @@ button {
     display: flex;
     justify-content: center;
     text-align: center;
+
 }
